@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.page {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+}
+ul.ml-0 {
+    margin-left: 0;
+}
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+    color: hsl(204, 86%, 53%);
+}
